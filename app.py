@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import joblib
 
-# Load the trained model pipeline
 model_path = r"C:\Users\Admin\Desktop\Jatin\flight price\Flight-Price-Prediction\Flight_price_predictor.pkl"
 model = joblib.load(model_path)
 
