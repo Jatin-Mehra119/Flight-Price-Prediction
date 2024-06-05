@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import joblib
 
-model_path = r"C:\Users\jatin\OneDrive\Desktop\GitPROJECT\Flight-Price-Prediction\Model (with preprocessing)\Flight_price_predictor.pkl" # model path
+model_path = "Flight_price_predictor.pkl" # model path
 model = joblib.load(model_path)
 
 # Interface 
